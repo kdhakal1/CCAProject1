@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["POST"])
 def stress_cpu():
-    subprocess.Popen(["python3", "stress_cpu.py"])
+    subprocess.Popen(["python3", "/home/ubuntu/CCAProject1/stress_cpu.py"])
     return jsonify({"message": "CPU stress initialized"})
 
 @app.route("/", methods=["GET"])
