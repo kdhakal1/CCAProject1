@@ -3,15 +3,15 @@ import json
 
 ''' Fill in the following information '''
 # General information
-YOUR_EMAIL = "" # <put your coursera account email>,
-YOUR_SECRET = "" # <put your secret token from coursera>
+YOUR_EMAIL = "kdhakal2@illinois.edu" # <put your coursera account email>,
+YOUR_SECRET = "UC2B3JlJSZipDu41" # <put your secret token from coursera>
 
 # Section 1
-IP_ADDRESS1 = "" # <put your first EC2 instance's IP address>
-IP_ADDRESS2 = "" # <put your second instance's IP address>
-YOUR_LOAD_BALANCER1 = "" # <put your load_balancer address for section 1>
+IP_ADDRESS1 = "44.208.238.68:5000" # <put your first EC2 instance's IP address>
+IP_ADDRESS2 = "54.211.218.65:5000" # <put your second instance's IP address>
+YOUR_LOAD_BALANCER1 = "Project1-ALB-234405310.us-east-1.elb.amazonaws.com" # <put your load_balancer address for section 1>
 # Section 2
-YOUR_LOAD_BALANCER2 = "" # <put your load_balancer address for section 2>, 
+YOUR_LOAD_BALANCER2 = "ASG-LB-1460560926.us-east-1.elb.amazonaws.com" # <put your load_balancer address for section 2>, 
 
 ''' Don't change the following '''
 url = "https://ekwygde36j.execute-api.us-east-1.amazonaws.com/alpha/execution"
